@@ -13,6 +13,9 @@ export var FRICTION = 5
 
 var velocity: = VZERO
 
+func _ready() -> void:
+	animation_tree.active = true
+
 func _physics_process(_delta: float) -> void:
 	return
 
